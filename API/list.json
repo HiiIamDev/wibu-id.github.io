@@ -1,0 +1,44 @@
+{
+    "list": [
+        {
+            "name" : "One Piece",
+            "eps" : "1031",
+            "duration" : "24m"
+        }, 
+        {
+            "name" : "Boruto",
+            "eps" : "264",
+            "duration" : "24m"
+        },
+        {
+            "name" : "Overlord IV",
+            "eps" : "9",
+            "duration" : "24m"
+        },
+        {
+            "name" : "Black Clover",
+            "eps" : "170",
+            "duration" : "24m"
+        },
+        {
+            "name" : "Naruto: Shippuden",
+            "eps" : "500",
+            "duration" : "24m"
+        },
+        {
+            "name" : "Jojo Bizarre Adventure",
+            "eps" : "26",
+            "duration" : "24m"
+        },
+        {
+            "name" : "Tokyo Ghoul",
+            "eps" : "12",
+            "duration" : "24m"
+        },
+        {
+            "name" : "Demon Slayer",
+            "eps" : "20",
+            "duration" : "24m"
+        }
+    ]
+}

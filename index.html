@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Assets/PngItem_3925588.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wibu ID | Home</title>
+</head>
+<body>
+    <!-- SETTINGS BARs -->
+    <div class="container-set">
+        <div class="wrapper-set" id="settings">
+            <div class="dl">
+                <a href="javascript:void(0)" onclick="setQuitFunc()">&times;</a>
+            </div>
+            <h2 class="txt-center">Settings</h2>
+            <div class="header-set">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur delectus reiciendis illum incidunt quod neque soluta aliquam praesentium consectetur?
+                </p>
+                <label for="cb" class="cnt-sel">
+                    Dark Mode
+                    <input type="checkbox" name="cb" id="cb" onclick="themeMode()">
+                </label>
+            </div>
+        </div>
+    </div>
+    <!-- Background -->
+    <div class="class-img-bg">
+        <!-- background-image: url(https://wallpaperaccess.com/full/3433.jpg); -->
+    </div>
+    <!-- Navigation Bar ++ Responsive -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+        <div class="nav-side">
+            <a href="#" class="selected-side">Home</a>
+            <a href="#" class="nav-side-bar">Genre</a>
+            <a href="#" class="nav-side-bar">Most Popular</a>
+            <a href="#" class="nav-side-bar">Hentai🤨</a>
+            <a href="javascript:void(0)" class="nav-side-bar" onclick="setOpenFunc()">Settings</a>
+            <a href="#" class="login-btn-side">Login</a>
+            <br>
+            <br>
+            <br>
+        </div>
+      </div>
+    <nav id="nav">
+        <div class="nav-title">
+            <h1>Wibu ID <img src="Assets/PngItem_3925588.png"width="30px"></h1>
+        </div>
+        <ul>
+            <li><a href="#" class="nav-list selected">Home</a></li>
+            <li><a href="#" class="nav-list">Genre</a></li>
+            <li><a href="#" class="nav-list">Most Popular</a></li>
+            <li><a href="#" class="nav-list">Hentai🤨</a></li>
+            <li><a href="javascript:void(0)" class="nav-list" onclick="setOpenFunc()">Settings</a></li>
+            <li><a href="#" class="login-btn">Login</a></li>
+        </ul>
+        <div class="nav-btn-res">
+            <button onclick="openNav()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <!-- Headerr Landing -->
+    <div class="container-header">
+        <div class="wrapper-header" id="header">
+            <h2>Nonton Anime Di Wibu ID Aja <img src="Assets/PngItem_3925588.png"width="30px" alt="Bendera Indonesia"></h2>
+            <p>Nonton Dengan Gratis Disini Tampa Iklan, Tampa Virus Dan Bisa Download Disini, Nonton Dengan Subtitle Indonesia </p>
+            <div class="wrp-form">
+                <div class="nav-form">
+                    <form>
+                        <input type="text" id="inpt" placeholder="Search..." autocomplete="off" required>
+                        <button>
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- Header List -->
+    <div class="container-list">
+        <div class="list-title">
+            <h2>List Anime</h2>
+            <hr>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Anime List -->
+    <div class="container-anime-list">
+        <div class="wrapper-anime-list">
+            <!-- #OP-1 -->
+            <div class="card-anime-list"  id="cards-1">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/One-Piece.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list trns">
+                    <h3 class="dark-bg">One Piece</h3>
+                    <span>Eps - 1031</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list">
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Boruto -->
+            <div class="card-anime-list" id="cards-2">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/boruto.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list trns" >
+                    <h3 class="dark-bg">Boruto</h3>
+                    <span>Eps - 265</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list">
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Overlord-IV -->
+            <div class="card-anime-list"  id="cards-3">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/Overlord-IV.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list trns">
+                    <h3 class="dark-bg">Overlord - IV</h3>
+                    <span>Eps - 9</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list" >
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Jojo Bizarre Adventure -->
+            <div class="card-anime-list" id="cards-4">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/jba.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list trns" >
+                    <h3 class="dark-bg">Jojo Bizarre Adventure</h3>
+                    <span>Eps - 26</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list" >
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-anime-list" id="cards-5">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/naruto.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list trns" >
+                    <h3 class="dark-bg">Naruto: Shippuden</h3>
+                    <span>Eps - 500</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list">
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-anime-list" id="cards-6">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/ttg.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list trns" >
+                    <h3 class="dark-bg">Tokyo Ghoul</h3>
+                    <span>Eps - 12</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list">
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-anime-list" id="cards-7">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/bc2.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list trns" >
+                    <h3 class="dark-bg">Black CLover</h3>
+                    <span>Eps - 170</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list" >
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-anime-list" id="cards-8">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/ds.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list trns">
+                    <h3 class="dark-bg">Demon Slayer</h3>
+                    <span>Eps - 20</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list">
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="more">
+                <a href="javascript:void(0)" class="btn-watch">Lainnya...</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Footer -->
+    <div class="container-footer">
+        <div class="wrapper-footer">
+            <div class="about-footer txt-center">
+                <h3>About</h3>
+                <p>Wibu ID adalah tempat nonton anime atau fanshare anime, disini kamu bisa nonton anime dengan gratis dan resolusi 1080p dan bisa mendownloadnya secara gratis</p>
+                <Span>©Copyright 2022 - Wibu ID - Dev By Abim</Span>
+            </div>
+            <div class="about-admin txt-center">
+                <h3>Admin</h3>
+                <p>Saya</p>
+                <p>Saya</p>
+                <p>Saya</p>
+                <p>Saya</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+<!-- Template -->
+<!-- 
+            <div class="card-anime-list">
+                <div class="img-anime list">
+                    <img src="DataList/Assets/One-Piece.jpg" alt="One Piece" width="300px" title="One Piece">
+                </div>
+                <div class="content-anime-list">
+                    <h3 class="dark-bg">One Piece</h3>
+                    <span>Eps - 1031</span><br>
+                    <span>Duration - 24m</span>
+                    <br>
+                    <br>
+                    <div class="wrapper-btn-list">
+                        <a href="#" class="btn-watch">Watch</a>
+                    </div>
+                </div>
+            </div>
+ -->
